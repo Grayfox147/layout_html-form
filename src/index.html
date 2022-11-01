@@ -9,7 +9,8 @@
   </head>
   <body>
     <form
-     action="https://mate-academy-form-lesson.herokuapp.com/create-application"    method="post">
+     action="https://mate-academy-form-lesson.herokuapp.com/create-application"    method="post"
+    >
       <script type="text/javascript" src="./main.js"></script>
       <fieldset class="form">
         <legend>Personal information</legend>
@@ -40,7 +41,6 @@
              max="100"
              value="12"
              id="age"
-
           >
         </div>
         <div class="item">
@@ -90,14 +90,20 @@
 
         <div class="item">
           <span>Do you love cats?</span>
-            <input type="radio" id="yes"
-              name="yes" value="yes"
+            <input
+              type="radio"
+              id="yes"
+              name="yes"
+              value="yes"
             >
-              <label for="yes">Yes</label>
-            <input type="radio" id="no"
-              name="no" value="no"
+            <label for="yes">Yes</label>
+            <input
+              type="radio"
+              id="no"
+              name="no"
+              value="no"
             >
-              <label for="no">No</label>
+            <label for="no">No</label>
         </div>
         <div class="item">
           <label for="color">What is your favorite color?</label>
@@ -122,10 +128,11 @@
             name="cars"
             class="selector"
             multiple
-            id="cars">
-            <option value="BMW">BMW</option>
-            <option value="Audi">Audi</option>
-            <option value="Lada">Lada</option>
+            id="cars"
+          >
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
             <option value="0"></option>
           </select>
         </div>
